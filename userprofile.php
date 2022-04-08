@@ -39,9 +39,9 @@
                         <div class="blog_img">
                             <figure><img src="img/userprofile.png" alt=""></figure>
                             <div class="sharestorybtn">
-                                <a href="blog.php" class="btn"> Add Friend</a>
-                                <a href="blog.php" class="btn"> Private Message</a>
-                                <a href="blog.php" class="btn"> Video Call</a>
+                                <a href="#" class="btn"> Add Friend</a>
+                                <a href="chat.php" class="btn"> Private Message</a>
+                                <a href="#" class="btn"> Video Call</a>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,46 @@
+.sharestoryhead {
+    text-align: center;
+}
+.sharestoryhead p {
+    font-size: 12px;
+}
+label {
+    cursor: pointer;
+    /* Style as you please, it will become the visible UI component. */
+ }
+ 
+ #upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+ .custom-box.form-group {
+    border: 1px solid #d9d9d9;
+    border-style: dashed;
+}
+.custom-box label {
+    cursor: pointer;
+    padding: 8rem;
+    margin: 0 auto;
+    text-align: center;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+}
+.custom-box label img {
+    width: 30px;
+    margin: 0 auto;
+}
+section.uploadstory-section .form-group label {
+    font-size: 13px;
+}
+section.uploadstory-section .form-group.custom-box p.blue-txt {
+    font-size: 18px;
+    color: #15A2CB;
+    font-weight: 700;
+}
+section.uploadstory-section .form-group.custom-box p.black-txt {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}

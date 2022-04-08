@@ -52,7 +52,7 @@
                     <div class="navbar_nav">
                         <ul class="nav_menus">
                             <li class="nav_items"><a href="index.php" class="nav_links">Welcome</a></li>
-                            <li class="nav_items"><a href="#" class="nav_links">About Us</a>
+                            <li class="nav_items"><a href="about.php" class="nav_links">About Us</a>
 
                             </li>
                             <li class="nav_items"><a href="groups.php" class="nav_links">Groups</a>
@@ -67,7 +67,7 @@
                             <li class="nav_items"><a href="blog.php" class="nav_links">Blogs</a>
 
                             </li>
-                            <li class="nav_items"><a href="#" class="nav_links">Contact Us</a>
+                            <li class="nav_items"><a href="contact.php" class="nav_links">Contact Us</a>
 
                             </li>
                             <li class="nav_items"><a href="#" class="nav_links"><i class="fa fa-search"
@@ -163,7 +163,7 @@
                     <div class="navbar_nav">
                         <ul class="nav_menus">
                             <li class="nav_items"><a href="index.php" class="nav_links">Welcome</a></li>
-                            <li class="nav_items"><a href="#" class="nav_links">About Us</a>
+                            <li class="nav_items"><a href="about.php" class="nav_links">About Us</a>
 
                             </li>
                             <li class="nav_items"><a href="groups.php" class="nav_links">Groups</a>
@@ -178,7 +178,7 @@
                             <li class="nav_items"><a href="blog.php" class="nav_links">Blogs</a>
 
                             </li>
-                            <li class="nav_items"><a href="#" class="nav_links">Contact Us</a>
+                            <li class="nav_items"><a href="contact.php" class="nav_links">Contact Us</a>
 
                             </li>
                             <li class="nav_items"><a href="#" class="nav_links"><i class="fa fa-search"

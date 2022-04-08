@@ -1,0 +1,14 @@
+section.contact-section p.actual-para {
+    font-size: 12px;
+}
+section.contact-section p.para-head {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+}
+section.contact-section  h3 {
+    font-size: 22px;
+}
+section.contact-section .form-start label {
+    font-size: 13px;
+}

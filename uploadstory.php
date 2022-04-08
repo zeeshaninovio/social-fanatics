@@ -3,7 +3,7 @@
 <!-- App Include Here -->
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="css/userprofile.css">
+<link rel="stylesheet" href="css/uploadstory.css">
 <!-- Stylesheet -->
 
 <!-- BreadCrumbs Start Here -->
@@ -19,12 +19,48 @@
 </div>
 <!-- BreadCrumbs Start Here -->
 <!-- section userprofile start here -->
-<section class="userprofile-section">
-    
+<section class="uploadstory-section">
     <div class="container">
         <div class="row mt-5 mb-5">
             <div class="col-lg-8">
-                
+                <div class="sharestoriescontent">
+                    <div class="sharestoryhead">
+                        <h3>SHARE STORIES</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur turpis augue, rutrum ut
+                            ligula fringilla, porttitor euismod libero. Sed sed luctus odio. Pellentesque habitant morbi
+                            tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+                    </div>
+                    <div class="form-start">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12">
+                                    <label for="inputName">First Name</label>
+                                    <input type="text" class="form-control" id="inputName" name="first_name"
+                                         required="required">
+                                </div>
+                                <div class="col-md-6 col-xs-12">
+                                    <label for="inputLname">Last Name</label>
+                                    <input type="text" class="form-control" name="last_name" id="inputLname"
+                                         required="required">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Your Story</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <label for="">Attach Videos/Images</label>
+                        <div class="form-group custom-box">
+                            <label for="upload-photo"><img src="img/uploadicon.png" alt=""><p class="black-txt">Drag and Drop here </p>or <p class="blue-txt">Browse files</p></label>
+                            <input type="file" class="form-control-file" id="upload-photo">
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-4">
                 <!-- Side Bar Start Here -->
@@ -37,19 +73,23 @@
                             </div>
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Newest</a>
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                        aria-controls="home" aria-selected="true">Newest</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Active</a>
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                        aria-controls="profile" aria-selected="false">Active</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Popular</a>
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                        aria-controls="contact" aria-selected="false">Popular</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="all_members">
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
                                     <div class="userDv">
                                         <div class="img_box">
                                             <a href="#">
@@ -230,22 +270,30 @@
                             </div>
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="groupone-tab" data-toggle="tab" href="#groupone" role="tab" aria-controls="groupone" aria-selected="true" aria-expanded="true">Newest</a>
+                                    <a class="nav-link active" id="groupone-tab" data-toggle="tab" href="#groupone"
+                                        role="tab" aria-controls="groupone" aria-selected="true"
+                                        aria-expanded="true">Newest</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="grouptwo-tab" data-toggle="tab" href="#grouptwo" role="tab" aria-controls="grouptwo" aria-selected="false" aria-expanded="false">Active</a>
+                                    <a class="nav-link" id="grouptwo-tab" data-toggle="tab" href="#grouptwo" role="tab"
+                                        aria-controls="grouptwo" aria-selected="false" aria-expanded="false">Active</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="groupthree-tab" data-toggle="tab" href="#groupthree" role="tab" aria-controls="groupthree" aria-selected="false" aria-expanded="false">Popular</a>
+                                    <a class="nav-link" id="groupthree-tab" data-toggle="tab" href="#groupthree"
+                                        role="tab" aria-controls="groupthree" aria-selected="false"
+                                        aria-expanded="false">Popular</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="groupfour-tab" data-toggle="tab" href="#groupfour" role="tab" aria-controls="groupfour" aria-selected="false" aria-expanded="false">Alphabetical</a>
+                                    <a class="nav-link" id="groupfour-tab" data-toggle="tab" href="#groupfour"
+                                        role="tab" aria-controls="groupfour" aria-selected="false"
+                                        aria-expanded="false">Alphabetical</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="all_groups">
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade active show" id="groupone" role="tabpanel" aria-labelledby="groupone-tab" aria-expanded="true">
+                                <div class="tab-pane fade active show" id="groupone" role="tabpanel"
+                                    aria-labelledby="groupone-tab" aria-expanded="true">
                                     <div class="groups">
                                         <div class="img_box">
                                             <a href="#">
@@ -297,7 +345,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="grouptwo" role="tabpanel" aria-labelledby="grouptwo-tab" aria-expanded="false">
+                                <div class="tab-pane fade" id="grouptwo" role="tabpanel" aria-labelledby="grouptwo-tab"
+                                    aria-expanded="false">
                                     <div class="groups">
                                         <div class="img_box">
                                             <a href="#">
@@ -349,7 +398,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="groupthree" role="tabpanel" aria-labelledby="groupthree-tab" aria-expanded="false">
+                                <div class="tab-pane fade" id="groupthree" role="tabpanel"
+                                    aria-labelledby="groupthree-tab" aria-expanded="false">
                                     <div class="groups">
                                         <div class="img_box">
                                             <a href="#">
@@ -401,7 +451,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="groupfour" role="tabpanel" aria-labelledby="groupfour-tab" aria-expanded="false">
+                                <div class="tab-pane fade" id="groupfour" role="tabpanel"
+                                    aria-labelledby="groupfour-tab" aria-expanded="false">
                                     <div class="groups">
                                         <div class="img_box">
                                             <a href="#">

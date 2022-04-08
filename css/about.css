@@ -1,0 +1,41 @@
+section.about-section p.actual-para {
+    font-size: 13px;
+}
+section.about-section p.para-head {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+}
+section.about-section  h3 {
+    font-size: 22px;
+}
+section.about-section .form-start label {
+    font-size: 13px;
+}
+section.about-section .user a {
+    text-decoration: none;
+}
+section.about-section .user .user_img figure {
+    margin: 0;
+}
+section.about-section .user .user_img img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+section.about-section .user a h5 {
+    color: #333333;
+    font-weight: 400;
+    margin: 0;
+}
+section.about-section .user span {
+    font-size: 11px;
+    color: #777777;
+}
+.usersteam{
+    text-align: center;
+}
+section.about-section .user.usersteam p {
+    font-size: 12px;
+    color: #777777;
+}
