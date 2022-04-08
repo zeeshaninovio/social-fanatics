@@ -1,0 +1,51 @@
+section.Share-stories-section .search_box {
+    display: flex;
+    padding-bottom: 20px;
+}
+section.Share-stories-section .search_box .form-group {
+    flex: 1;
+    margin: 0;
+}
+section.Share-stories-section .search_box .form-control {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    color: #888;
+    font-size: 15px;
+    font-family: "Open Sans";
+    border-radius: 4px;
+}
+section.Share-stories-section .search_box button {
+    border: 0;
+    padding: 0;
+    width: 150px;
+    background: #e6e6e6;
+    border-radius: 4px;
+    color: #1d1d1d;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+section.Share-stories-section .blog_img img {
+    width: 100%;
+}
+section.Share-stories-section .contentDv {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+section.Share-stories-section .contentDv h4 {
+    font-weight: 100;
+    font-size: 25px;
+    margin: 0;
+}
+section.Share-stories-section .blog_info a {
+    margin-right: 20px;
+    color: #333333;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+section.Share-stories-section .contentDv p {
+    font-size: 14px;
+    margin-top: 1rem;
+}

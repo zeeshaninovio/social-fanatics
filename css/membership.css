@@ -1,0 +1,207 @@
+/* Membership Css Start Here */
+.membership_sec {
+  padding: 90px 0px 40px;
+}
+.membership_sec .heading {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.membership_sec .heading h4 {
+  font-size: 26px;
+}
+.membership_sec .heading p {
+  font-size: 13px;
+  color: #777777;
+}
+.membership_sec .membership_package {
+  border: solid 1px #ddd;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: 0.6s;
+}
+.membership_sec .membership_package:hover {
+  box-shadow: 0 0 15px 0 rgb(36 201 192 / 20%);
+}
+.membership_sec .membership_package .tag {
+  background: #0095c2;
+  text-transform: uppercase;
+  padding: 1px 0;
+  position: absolute;
+  width: 100%;
+  transform: rotate(42deg);
+  right: -98px;
+  top: 14px;
+}
+.membership_sec .membership_package .tag h5 {
+  font-size: 13px;
+  color: #fff;
+  margin: 0;
+}
+.membership_sec .membership_package .for-pad {
+  padding: 12px 20px;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0;
+}
+.membership_sec .membership_package .for-pad h5 {
+  margin: 0;
+}
+.membership_sec .membership_package .for-pad p {
+  margin: 0;
+}
+.membership_sec .membership_package .package_desc {
+  background: #f7f7f7;
+}
+.membership_sec .membership_package .package_desc p {
+  background: #f7f7f7;
+}
+.membership_sec .membership_package p {
+  font-size: 13px;
+  color: #777777;
+  font-weight: 500;
+}
+.membership_sec .membership_package .package_price h3 {
+  margin: 0;
+  font-size: 37px;
+  color: #0095c2;
+  font-weight: 400;
+}
+.membership_sec .membership_package ul.package_detail {
+  padding: 0;
+  list-style: none;
+  border-bottom: 0;
+}
+.membership_sec .membership_package ul.package_detail li {
+  font-size: 13px;
+  color: #333333;
+  padding: 10px 0;
+  border-bottom: 1px dotted #ddd;
+}
+.membership_sec .membership_package ul.package_detail li i {
+  color: #0095c2;
+  margin-right: 3px;
+}
+.membership_sec .membership_package ul.package_detail li.unavailable {
+  color: #c2c2c2;
+}
+.membership_sec .membership_package .button-group {
+  border-bottom: 0;
+  padding: 20px 20px;
+}
+.membership_sec .membership_package .button-group button.btn {
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #e6e6e6;
+  color: #1d1d1d;
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.membership_sec .membership_package .button-group button.btn.selected {
+  padding: 10px 20px 11px;
+  font-size: 14px;
+  color: #fff;
+  background: #2ba6cb;
+}
+.membership_sec .membership_package .button-group button.btn:hover {
+  background: #dbdbdb;
+  color: #000;
+}
+.membership_sec .back_btn {
+  padding-top: 20px;
+}
+.membership_sec .back_btn a {
+  font-size: 11px;
+  padding: 7px 14px 8px;
+  color: #0296c0;
+  font-weight: 700;
+}
+.membership_sec hr {
+  margin-top: 60px;
+}
+@media (max-width: 1100px) {
+  .membership_sec .membership_package .tag {
+    right: -75px;
+  }
+}
+@media (max-width: 991px) {
+  .membership_sec .membership_package .tag {
+    right: -132px;
+  }
+}
+@media (max-width: 768px) {
+  .membership_sec {
+    padding: 50px 0px 40px;
+  }
+  .membership_sec .heading {
+    padding-bottom: 30px;
+  }
+  .membership_sec .membership_package .tag {
+    right: -220px;
+  }
+}
+@media (max-width: 575px) {
+  .membership_sec .membership_package .tag {
+    right: -237px;
+    top: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .membership_sec .membership_package .tag {
+    right: -135px;
+  }
+}
+/* Membership Css End Here */
+
+/* Faqs Sec Start Here */
+.faqs_sec {
+  padding: 0px 0 40px;
+  border-bottom: 1px solid #77777747;
+}
+.faqs_sec .heading {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.faqs_sec .heading h4 {
+  font-size: 20px;
+  color: #222222;
+}
+.faqs_sec .quesAnswer_box {
+  margin-top: 30px;
+}
+.faqs_sec .quesAnswer_box h5 {
+  font-size: 14px;
+  color: #222222;
+  font-weight: 400;
+}
+.faqs_sec .quesAnswer_box p {
+  font-size: 13px;
+  color: #777777;
+  padding-right: 50px;
+}
+.faqs_sec .still_ques {
+  text-align: center;
+  padding-top: 40px;
+}
+.faqs_sec .still_ques span {
+  font-size: 13px;
+  color: #777777;
+}
+.faqs_sec .still_ques span a {
+  font-weight: bold;
+  color: #777777;
+  text-decoration: none;
+  font-size: 14px;
+}
+@media (max-width: 480px) {
+  .faqs_sec .quesAnswer_box {
+    margin-top: 15px;
+  }
+  .faqs_sec .quesAnswer_box p {
+    padding-right: 0px;
+  }
+  .faqs_sec .still_ques {
+    padding-top: 20px;
+  }
+}
+/* Faqs Sec Start Here */

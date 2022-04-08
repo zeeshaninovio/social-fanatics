@@ -1,0 +1,401 @@
+.user-profile-back {
+    background: #0095c2;
+}
+.blog-time-name {
+    display: flex;
+    gap: 20px;
+}
+.userprofile {
+    color: #fff;
+}
+.blog-time-name p {
+    font-size: 13px;
+    font-weight: 100;
+}
+.userprofile h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+a.btn {
+    background: #26A5CB;
+    color: #fff;
+    font-size: 12px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    font-weight: 300;
+    -webkit-box-orient: vertical;
+    margin-left: 0.6rem;
+    -webkit-line-clamp: 2;
+    /* width: 80px; */
+    margin-bottom: 0.3rem;
+    transition: 0.6s;
+    white-space: break-spaces;
+}
+.blog_img {display: flex;}
+.blog_img img {
+    background: #26a5cb;
+    border-radius: 4px;
+    padding: 0.6rem;
+    width: 200px;
+    height: 190px;
+}
+.looking-for-tab {
+    background: #26a5cb;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1.8rem;
+}
+.looking-for-content p {
+    font-size: 12px;
+    margin: 0;
+    color: white;
+}
+.about-me-tab div p {
+    text-align: right;
+}
+.aboutme-t .col-md-5 {
+    padding-right: 0;
+}
+.about-me-tab div p {
+    text-align: right;
+    margin: 0;
+    background: #26a5cb;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.about-me-tab p {
+    margin: 0;
+    background: #26a5cb;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+.aboutme-t {
+    color: #fff;
+}
+.slick-slider {
+    margin:0 -15px;
+}
+.media-t img {
+    background: #26a5cb;
+    border-radius: 4px;
+    padding: 0.3rem;
+    width: 120px;
+    height: 120px;
+}
+.media-t {
+    margin-top: 6rem;
+}
+.slick-prev:before {
+    content: 'PREVIOUS';
+}
+.slick-next:before {
+    content: 'NEXT';
+}
+.slick-prev:before, .slick-next:before{
+    font-size: 11px;
+}
+button.slick-prev {
+    bottom: -15px;
+    left: 30%;
+    z-index: 1;
+}
+.slick-prev, .slick-next{
+    top: unset;
+    bottom: -20px;
+}
+.slick-next{
+    bottom: -15px;
+    right: 35%;
+    z-index: 1;
+}
+.user-profile-back .nav-pills {
+    gap: 10px;
+}
+.user-profile-back .nav-link {
+    color: white;
+    background: #26a5cb;
+    padding: 0.5rem;
+}
+.user-profile-back .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
+    background-color: #26a5cb;
+}
+.user-profile-back a#pills-aboutme {
+    background: #00ace1;
+}
+.user-profile-back .nav-link:hover {
+    color: #fff;
+}
+.user-profile-back span.count {
+    background: #ed0058;
+    padding: 1px 5px;
+    color: #fff;
+    font-size: 11px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.user-profile-back .nav-pills .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+}
+.apfg-blog .nav-pills .nav-item.show .nav-link,.apfg-blog .nav-pills .nav-link.active {
+    background-color: transparent;
+    color: black;
+    border-radius: unset;
+    border-bottom: 2px solid #15a2cb;
+}
+.apfg-blog .nav-link {color: #000;padding: 0;margin-right: 2rem;}
+.activity-para {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #ACACAC;
+    
+}
+.activity-content {
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    padding: 1.5rem;
+    border-radius: 4px;
+    background: #f7f7f7;
+}
+p.activity-name {
+    font-weight: 400;
+    color: #000;
+} 
+.activity-para2 {
+    font-size: 12px;
+    color: #ACACAC;
+    font-style: italic;
+    
+}
+.activity-para2 p{
+    margin: 0;
+}
+.activity-para p {
+    margin: 0;
+}
+.tabsactivity.tabsactivitys.mt-3  .activity-content {
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    padding: 1.5rem;
+    border-radius: 4px;
+    background: unset;
+}
+.tabsactivity.tabsactivitys.mt-3 .acitivity-num p {
+    margin-left: 1rem;
+}
+.tabsactivity.tabsactivitys.mt-3 .acitivity-num {
+    padding: 0 1.5rem;
+}
+.tabsactivity.tabsactivitys.mt-3 .activity-content {
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    padding: 1.5rem;
+    border-radius: 4px;
+    background: unset;
+}
+.acitivity-num::before{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    background-color: #D4D4D4;
+}
+.activity-para.activity-paraa2 {
+    display: inline-block;
+}
+.activity-content.activity-content2 {
+    display: inline-block;
+}
+.activity-para.activity-paraa2 p {
+    display: inline-block;
+}
+.activity-para2 {
+    display: inline !important;
+}
+.acitivity-num p {
+    margin-left: 1rem;
+}
+.acitivity-num.activity-num2 {
+    color: #7B7B7B;
+    font-size: 11px;
+}
+.tabsactivity .activity-content:before {
+    content: "";
+    position: absolute;
+    border-right: 10px solid #F7F7F7;
+    border-left: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    left: -5px;
+}
+.activity-content.activity-content00:before {
+    content: unset;
+}
+.lineee:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 900px;
+    background: #E2E2E2;
+    transform: translate(6px, 19px);
+}
+.userprofileimg {
+    position: absolute;
+    transform: translate(-28px, 0px);
+}
+div#pills-profile div#accordion .card {
+    border: unset;
+}
+div#pills-profile div#accordion .card-header {
+    background-color: transparent;
+    padding: 0;
+}
+div#pills-profile div#accordion button.btn.btn-link.collapsed:after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    background: #f7f7f7;
+    width: 25px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+    line-height: 1;
+    top: 16px;
+}
+div#pills-profile div#accordion button.btn.btn-link:after {
+    content: "-";
+    position: absolute;
+    right: 0px;
+    background: #f7f7f7;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+    line-height: 1;
+    top: 15px;
+}
+button.btn.btn-link {
+    padding: 1rem 0;
+}
+div#collapseOne .card-body p:nth-child(2) {
+    font-size: 14px;
+    font-weight: 100;
+    color: #7F7F7F;
+}
+div#collapseOne .card-body p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+}
+.friend-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.friends-para p:nth-child(2) {
+    font-size: 12px;
+    background: #f7f7f7;
+    padding: 0.2rem;
+    text-align: center;
+    border-radius: 4px;
+}
+section.userprofile-section .friends-para p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 600;
+}
+section.userprofile-section .friends-para p {
+    margin: 0;
+}
+section.userprofile-section .friends-tab-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+section.userprofile-section .friend-img figure {
+    margin: 0;
+}
+section.userprofile-section .groups-tabs-s .group_box {
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px 10px;
+}
+section.userprofile-section .groups-tabs-s .group_box .img_box {
+    margin-top: -50px;
+}
+section.userprofile-section .groups-tabs-s .group_box img {
+    max-width: 100px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0px 0px 0px 1px #ccc;
+}
+section.userprofile-section .groups-tabs-s .group_box .group_content a.group-name {
+    color: #333333;
+    font-size: 17px;
+    line-height: 50px;
+}
+section.userprofile-section .groups-tabs-s .group_box .group_content span.time {
+    font-size: 11px;
+    font-style: italic;
+    color: #cccccc;
+}
+section.userprofile-section .groups-tabs-s .group_box .group_content .about_group {
+    padding-top: 15px;
+}
+section.userprofile-section .groups-tabs-s .group_box .group_content .about_group p {
+    font-size: 13px;
+    color: #777777;
+}
+section.userprofile-section .groups-tabs-s .group_box .group_content .group_type p {
+    font-size: 13px;
+    color: #777777;
+    margin: 0;
+}
+section.userprofile-section .groups-tabs-s .total_groups {
+    padding-top: 40px;
+}
+section.userprofile-section .groups-tabs-s .total_groups p {
+    margin: 0;
+    font-size: 13px;
+    color: #777777;
+}
+section.userprofile-section .apfg-blog .nav-pills .nav-item.show .nav-link, .apfg-blog .nav-pills .nav-link.active:after {
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    bottom: -20px;
+    border-top: 10px solid #15a2cb;
+    left: 16px;
+}
+section.userprofile-section .apfg-blog .nav-link {
+    position: relative;
+}
+section.userprofile-section .apfg-blog li.nav-item span.count {
+    background: #15a2cb;
+    padding: 0px 5px;
+    color: #fff;
+    font-size: 13px;
+    margin-left: 5px;
+    border-radius: 3px;
+    margin-right: 1rem;
+}
+a#pills-Friend-tab {
+    margin-right: 0;
+}
+li.nav-item:nth-child(3) {
+    display: flex;
+    align-items: center;
+}

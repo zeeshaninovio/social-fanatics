@@ -1,0 +1,350 @@
+/* Chat Css Start Here */
+.universal-Banner .un-ban {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chart_sec {
+  padding: 80px 0;
+}
+.chart_sec .title_strip {
+  background: #d50808;
+  padding: 17px 30px;
+  border-radius: 5px;
+}
+.chart_sec .title_strip h5 {
+  margin: 0;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Poppins";
+}
+.chart_sec .chattings {
+  padding: 60px 0 0;
+}
+section.chart_sec .chattings .chatting-area {
+  box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 18%);
+  -webkit-box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 18%);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,18%);
+}
+section.chart_sec .chatting-area .col-md-3 {
+  padding-left: 0;
+}
+.chart_sec .chattings .sidebar .top-bar .user {
+  display: flex;
+  padding: 20px 25px 20px;
+  align-items: center;
+  border-bottom: 1px solid #DFE6E7;
+}
+.chart_sec .chattings .sidebar .top-bar .user .img_box img {
+  width: 33px;
+}
+.chart_sec .chattings .sidebar .top-bar .user .img_box {
+  margin-right: 10px;
+}
+section.chart_sec .user .name {
+  line-height: 1;
+}
+section.chart_sec .user .name span.online {
+  font-size: 12px;
+  color: #01CC0F;
+}
+section.chart_sec .rating-stars span {
+  color: #fdbf00;
+}
+section.chart_sec span.kmsaway {
+  font-size: 12px;
+  margin-left: 1rem;
+}
+section.chart_sec .sidebar {
+  background: #f2fafb;
+  /* padding: 1rem; */
+}
+section.chart_sec .user  .name p {
+  font-size: 12px;
+  margin: 0;
+  color: #A9AEAF;
+}
+.chart_sec .chattings .sidebar .top-bar .user .name h4 {
+  font-size: 14px;
+  color: #182034;
+  font-family: "Poppins";
+  font-weight: 600;
+  display: inline-block;
+  margin: 0;
+}
+section.chart_sec .rating-stars {
+  display: inline;
+}
+.name span:nth-child(1) {
+  color: #fdbf00;
+}
+.rating-stars span:nth-child(1) {
+  font-size: 11px;
+  margin-left: 1rem;
+}
+.chart_sec .chattings .sidebar .search_box {
+  padding: 0 10px;
+}
+.chart_sec .chattings .sidebar .search_box .form-group {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.chart_sec .chattings .sidebar .search_box .form-group .form-control {
+  border: 1px solid #dbdbdb;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 14px;
+  font-family: "Poppins";
+}
+.chart_sec
+  .chattings
+  .sidebar
+  .search_box
+  .form-group
+  .form-control::placeholder {
+  font-size: 11px;
+  color: #cbcaca;
+  font-family: "Poppins";
+  font-style: italic;
+}
+.chart_sec .chattings .sidebar .search_box .form-group button.btn {
+  position: absolute;
+  right: 0;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+}
+.chart_sec .chattings .sidebar .filter-option .form-control {
+  background: transparent;
+  border: 0;
+  padding: 0 10px;
+  color: #bebebe;
+  font-size: 10px;
+  font-family: "Poppins";
+}
+.chart_sec .chattings .sidebar .onlines_users {
+  height: 600px;
+  overflow-y: auto;
+  padding: 10px 10px;
+}
+.chart_sec .chattings .sidebar .onlines_users::-webkit-scrollbar {
+  width: 2px;
+}
+.chart_sec .chattings .sidebar .onlines_users::-webkit-scrollbar-track {
+  background: #ccc;
+}
+.chart_sec .chattings .sidebar .onlines_users::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+.chart_sec .chattings .sidebar .onlines_users .online_chats {
+  display: flex;
+  align-items: center;
+  /* box-shadow: 0px 0px 0px 1px #ddd; */
+  padding: 15px 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #DFE6E7;
+}
+.chart_sec .chattings .sidebar .onlines_users .online_chats .name h4 {
+  color: #182034;
+  font-size: 17px;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin: 0px 0 3px 0;
+  line-height: 1;
+}
+.chart_sec .chattings .sidebar .onlines_users .online_chats .name p {
+  font-size: 10px;
+  color: #8990a1;
+  margin: 0;
+  display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+section.chart_sec .onlines_users .name {
+  height: 36px;
+}
+.chart_sec .chattings .sidebar .onlines_users .online_chats .contentDv {
+  padding-left: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 1;
+}
+.chart_sec .chattings .sidebar .onlines_users .online_chats .contentDv .date p {
+  margin-bottom: 0;
+  font-size: 10px;
+  color: #8990a1;
+  white-space: nowrap;
+}
+section.chart_sec .sidebar .online_chats:active {
+  background: white;
+  box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 18%);
+  -webkit-box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 18%);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,18%);
+}
+.chart_sec .chattings .sidebar .onlines_users .online_chats .img_box img {
+  width: 30px;
+}
+.chart_sec .chattings .chating_user_detail .online_chats {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #c1c1c1;
+  padding-bottom: 20px;
+}
+.chart_sec .chattings .chating_user_detail .online_chats p {
+  margin: 0;
+}
+.chart_sec .chattings .chating_user_detail .online_chats .img_box img {
+  width: 60px;
+}
+.chart_sec .chattings .chating_user_detail .online_chats .name {
+  padding-left: 20px;
+}
+.chart_sec .chattings .chating_user_detail .online_chats .name h4.user_name {
+  margin: 0;
+  font-size: 20px;
+  color: #182034;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.chart_sec .chattings .chating_user_detail .online_chats .name p.status {
+  color: #8990a1;
+  font-size: 11px;
+  padding-top: 5px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.chattings .messages {
+  margin: 30px 0;
+  height: 600px;
+  overflow-y: auto;
+}
+.chattings .messages::-webkit-scrollbar {
+  width: 0px;
+}
+.chattings .messages .chatting {
+  margin-bottom: 30px;
+}
+.chattings .messages .chatting .message_box .sms {
+  background: #f1f1f1;
+  padding: 25px 20px;
+  font-size: 13px;
+  color: #6a6f7c;
+  font-family: "Poppins";
+  border-radius: 5px;
+}
+.chattings .messages .your_message .sms {
+  background: #15A2CB !important;
+  color: #fff !important;
+}
+section.chart_sec .chating_user_detail .your_message.chatting p.date {
+  text-align: left !important;
+}
+.chattings .messages .chatting .message_box .date {
+  font-size: 12px;
+  color: #8990a1;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: right;
+}
+.chattings .messages .other_message {
+  margin: 0px auto 30px 0;
+  display: table;
+}
+.chattings .messages .your_message {
+  margin: 0px 0 30px auto;
+  display: table;
+}
+.chart_sec .chattings .chating_user_detail .bottom_bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+.chart_sec .chattings .chating_user_detail .bottom_bar .form-group {
+  margin: 0;
+  flex: 1;
+}
+.chart_sec .chattings .chating_user_detail .bottom_bar .form-group .form-control {
+  background: #f8f8f8;
+  /* border: 0;
+  padding: 15px 20px; */
+  border-radius: 0;
+  color: #000;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+.chart_sec
+  .chattings
+  .chating_user_detail
+  .bottom_bar
+  .form-group
+  .form-control::placeholder {
+  font-size: 13px;
+  color: #8990a1;
+}
+.chart_sec
+  .chattings
+  .chating_user_detail
+  .bottom_bar
+  .button-group
+  button.btn.send_btn
+  i {
+  color: #d80909;
+  font-size: 22px;
+}
+.chart_sec
+  .chattings
+  .chating_user_detail
+  .bottom_bar
+  .button-group
+  button.btn.send_btn {
+  background: transparent;
+  cursor: pointer;
+}
+.chart_sec .chattings .chating_user_detail .bottom_bar .button-group button {
+  margin: 0 5px;
+}
+.chart_sec
+  .chattings
+  .chating_user_detail
+  .bottom_bar
+  .button-group
+  button:last-child {
+  margin: 0;
+}
+.chart_sec
+  .chattings
+  .chating_user_detail
+  .bottom_bar
+  .button-group
+  button.btn.more_option {
+  background: #d80909;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+@media (max-width: 575px) {
+  .universal-Banner .un-ban .banner-img {
+    display: none;
+  }
+  .chart_sec .chattings .sidebar .onlines_users {
+    height: 190px;
+    padding: 10px 10px;
+  }
+  .chart_sec .chattings .sidebar .onlines_users .online_chats {
+    box-shadow: 0px 0px 0px 2px #ddd;
+  }
+  .chart_sec .chating_user_detail {
+    padding-top: 60px;
+  }
+  .chart_sec .chattings .chating_user_detail .bottom_bar {
+    position: unset;
+  }
+}
+/* Chat Css End Here */

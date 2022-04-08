@@ -1,0 +1,47 @@
+section.stories-s-section .blog_info a {
+    margin-right: 20px;
+    color: #333333;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+section.stories-s-section .blog_info a {
+    margin-right: 20px;
+    color: #333333;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+section.stories-s-section .blog_post .blog_info i {
+    color: #777;
+}
+section.stories-s-section .story_box .contentDv a.btn {
+    color: #fff;
+    background: #15A2CB;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 7px 9px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+section.stories-s-section .contentDv {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+section.stories-s-section .contentDv h4 {
+    font-weight: 100;
+    font-size: 25px;
+}
+section.stories-s-section .img_box img {
+    max-width: 100%;
+    width: 221px;
+}
+section.stories-s-section .sharestorybtn a {
+    border-radius: 5px;
+    padding: .5rem 2rem;
+}
+section.stories-s-section {
+    margin-top: 3rem;
+}
+.contentDv p {font-size: 14px;}

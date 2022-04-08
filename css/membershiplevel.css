@@ -1,0 +1,57 @@
+section.membership-level-section .membershiplevel-heading {
+    text-align: center;
+    width: -webkit-fill-available;
+}
+section.membership-level-section .form-check-input {
+    margin-left: 0;
+}
+section.membership-level-section button.btn.btn-primary.pay {
+    background: #15A2CB;
+    color: #fff;
+    border-color: #15A2CB;
+}
+section.membership-level-section .form-control {
+    border-radius: 0;
+    font-size: 12px;
+}
+section.membership-level-section label.form-check-label.Credit-Debit {font-size: 14px;}
+section.membership-level-section .membershiplevel-heading h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section.membership-level-section .membershiplevel-heading p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+section.membership-level-section .subscription-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+line-height: 15px;
+}
+
+section.membership-level-section .dollarval {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+section.membership-level-section .subscription-form h3 {
+    margin: 0;
+font-weight: 400;font-size: 27px;}
+section.membership-level-section .custom-alert {
+    background: #D0ECF5;
+    padding: 2rem;
+}
+section.membership-level-section .custom-alert p {
+    font-size: 14px;
+}
+section.membership-level-section .custom-alert p:nth-child(1) {
+    font-size: 22px;
+    font-weight:bold;
+}
+section.membership-level-section {
+    margin: 3rem 0;
+}
+section.membership-level-section .sam-txt p {font-size: 14px;}
