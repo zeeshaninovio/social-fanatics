@@ -3,7 +3,7 @@
 <!-- App Include Here -->
 
 <!-- Stylesheet -->
-<link rel="stylesheet" href="css/userprofile.css">
+<link rel="stylesheet" href="css/userprofile2.css">
 <!-- Stylesheet -->
 
 <!-- BreadCrumbs Start Here -->
@@ -20,12 +20,12 @@
 </div>
 <!-- BreadCrumbs Start Here -->
 <!-- section userprofile start here -->
-<section class="userprofile-section">
+<section class="userprofile-section userprofile2-section">
     <div class=" user-profile-back">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="userprofile">
+                    <div class="userprofile userprofile22">
                         <div>
                             <h3>Sarah</h3>
                         </div>
@@ -38,11 +38,25 @@
                         </div>
                         <div class="blog_img">
                             <figure><img src="img/userprofile.png" alt=""></figure>
-                            <div class="sharestorybtn">
+                            <img src="img/userprofile21.png" class="img-fluid img-upload-icon" alt="">
+                            <!-- <div class="sharestorybtn">
                                 <a href="#" class="btn"> Add Friend</a>
                                 <a href="chat.php" class="btn"> Private Message</a>
                                 <a href="livecall.php" class="btn"> Video Call</a>
-                            </div>
+                            </div> -->
+                            <ul class="nav nav-pills mb-3 sharestorybtn" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="pills-Edit-tab" data-toggle="pill" href="#pills-Edit"
+                                        role="tab" aria-controls="pills-Edit" aria-selected="true">Edit Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-Save-tab" data-toggle="pill" href="#pills-Save"
+                                        role="tab" aria-controls="pills-Save" aria-selected="false">Save Profile</a>
+                                </li>
+                            </ul>
+
+                            <!-- <div class="tab-pane fade" id="pills-Save" role="tabpanel"
+                                    aria-labelledby="pills-Save-tab">Save</div> -->
                         </div>
                     </div>
                 </div>
@@ -59,46 +73,12 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="pills-media" data-toggle="pill" href="#pills-media-t" role="tab"
-                                aria-controls="pills-media-t" aria-selected="false">Media<span
-                                    class="count">5</span></a>
+                                aria-controls="pills-media-t" aria-selected="false">Save</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active mt-5" id="pills-looking-t" role="tabpanel"
                             aria-labelledby="pills-home-tab">
-                            <div class="looking-for-tab">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <figure>
-                                            <img src="img/commas.png" alt="" class="img-fluid">
-                                        </figure>
-                                    </div>
-                                    <div class="col-md-10">
-                                        <div class="looking-for-content">
-                                            <p>The one thing I am most passionate about:</p>
-                                            <p>Life :)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="looking-for-tab">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <figure>
-                                            <img src="img/commas.png" alt="" class="img-fluid">
-                                        </figure>
-                                    </div>
-                                    <div class="col-md-10">
-                                        <div class="looking-for-content">
-                                            <p>Things I am looking for in a person are:</p>
-                                            <p>good energy and a positive outlook on life</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-aboutme-t" role="tabpanel"
-                            aria-labelledby="pills-profile-tab">
                             <div class="aboutme-t">
                                 <div class="row">
                                     <div class="col-md-5">
@@ -116,29 +96,89 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="about-me-tab">
-                                            <p>Hanna Marcovick</p>
-                                            <p>Woman</p>
-                                            <p>Man</p>
-                                            <p>1994-04-07</p>
-                                            <p>Separated</p>
-                                            <p>Berlin</p>
-                                            <p>Germany</p>
+                                            <form action="">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="am-name"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-gender1"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-gender2"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-bd"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-ms"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-city"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-country"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-media-t" role="tabpanel"
+                        <div class="tab-pane fade" id="pills-aboutme-t" role="tabpanel"
                             aria-labelledby="pills-profile-tab">
-                            <div class="media-t ">
-                                <figure><img src="img/user1.jpg" alt=""></figure>
-                                <figure><img src="img/user2.jpg" alt=""></figure>
-                                <figure><img src="img/user3.jpg" alt=""></figure>
-                                <figure><img src="img/user4.jpg" alt=""></figure>
-                                <figure><img src="img/user5.jpg" alt=""></figure>
-                                <figure><img src="img/user6.jpg" alt=""></figure>
+                            <div class="aboutme-t userprofile2">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                placeholder="Type your message here..."></textarea>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                placeholder="Type your message here..."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show " id="pills-Edit-form" role="tabpanel"
+                            aria-labelledby="pills-Edit-tab">
+                            <div class="aboutme-t">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="about-me-tab">
+                                            <div>
+                                                <p>Name</p>
+                                                <p>I am a</p>
+                                                <p>Looking for a</p>
+                                                <p>Birthday</p>
+                                                <p>Martial Status</p>
+                                                <p>City</p>
+                                                <p>Country</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="about-me-tab">
+                                            <form action="">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" id="am-name"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-gender1"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-gender2"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-bd"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-ms"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-city"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                    <input type="text" class="form-control" id="am-country"
+                                                        aria-describedby="am-name" placeholder="Type here...">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="col-lg-4"></div>
@@ -170,6 +210,14 @@
                         <li class="nav-item">
                             <a class="nav-link" id="pills-Media-tab" data-toggle="pill" href="#pills-Media" role="tab"
                                 aria-controls="pills-Media" aria-selected="false">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-Stories-tab" data-toggle="pill" href="#pills-Stories"
+                                role="tab" aria-controls="pills-Stories" aria-selected="false">Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-Membership-tab" data-toggle="pill" href="#pills-Membership"
+                                role="tab" aria-controls="pills-Membership" aria-selected="false">Membership</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
@@ -326,15 +374,11 @@
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                         data-parent="#accordion">
                                         <div class="card-body">
-                                            <p>About me</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit
-                                                magna sapien, nec posuere elit vehicula at. Suspendisse ac
-                                                pellentesque metus. Morbi sapien libero, placerat non sodales nec,
-                                                lacinia nec quam. Curabitur ut venenatis dolor, mattis
-                                                viverra metus. Proin pharetra porttitor placerat. Vestibulum ante ipsum
-                                                primis in faucibus orci luctus et ultrices posuere
-                                                cubilia curae; Duis eget sagittis libero. Donec ornare dolor lacus, eget
-                                                facilisis dui porttitor non.</p>
+                                            <label for="aboutme">About me</label>
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="aboutme" rows="3"
+                                                    placeholder="Type here..."></textarea>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -351,15 +395,16 @@
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                         data-parent="#accordion">
                                         <div class="card-body">
-                                            <p>About me</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit
-                                                magna sapien, nec posuere elit vehicula at. Suspendisse ac
-                                                pellentesque metus. Morbi sapien libero, placerat non sodales nec,
-                                                lacinia nec quam. Curabitur ut venenatis dolor, mattis
-                                                viverra metus. Proin pharetra porttitor placerat. Vestibulum ante ipsum
-                                                primis in faucibus orci luctus et ultrices posuere
-                                                cubilia curae; Duis eget sagittis libero. Donec ornare dolor lacus, eget
-                                                facilisis dui porttitor non.</p>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">The one thing I am most</label>
+                                                <input type="email" class="form-control" id="one-thing"
+                                                    placeholder="Type here...">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Things I am looking for I...</label>
+                                                <input type="email" class="form-control" id="one-thing"
+                                                    placeholder="Type here...">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -376,40 +421,50 @@
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                         data-parent="#accordion">
                                         <div class="card-body">
-                                            <p>About me</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit
-                                                magna sapien, nec posuere elit vehicula at. Suspendisse ac
-                                                pellentesque metus. Morbi sapien libero, placerat non sodales nec,
-                                                lacinia nec quam. Curabitur ut venenatis dolor, mattis
-                                                viverra metus. Proin pharetra porttitor placerat. Vestibulum ante ipsum
-                                                primis in faucibus orci luctus et ultrices posuere
-                                                cubilia curae; Duis eget sagittis libero. Donec ornare dolor lacus, eget
-                                                facilisis dui porttitor non.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingfour">
-                                        <h5 class="mb-0">
-                                            <button class="btn btn-link collapsed" data-toggle="collapse"
-                                                data-target="#headingfour1" aria-expanded="false"
-                                                aria-controls="headingfour1">
-                                                Base
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="headingfour1" class="collapse" aria-labelledby="headingfour"
-                                        data-parent="#accordion">
-                                        <div class="card-body">
-                                            <p>About me</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit
-                                                magna sapien, nec posuere elit vehicula at. Suspendisse ac
-                                                pellentesque metus. Morbi sapien libero, placerat non sodales nec,
-                                                lacinia nec quam. Curabitur ut venenatis dolor, mattis
-                                                viverra metus. Proin pharetra porttitor placerat. Vestibulum ante ipsum
-                                                primis in faucibus orci luctus et ultrices posuere
-                                                cubilia curae; Duis eget sagittis libero. Donec ornare dolor lacus, eget
-                                                facilisis dui porttitor non.</p>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Interests</label>
+                                                        <input type="email" class="form-control" id="Interests"
+                                                            placeholder="Type here...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Vacation spots</label>
+                                                        <input type="email" class="form-control" id="Vacation"
+                                                            placeholder="Type here...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Vacation</label>
+                                                        <input type="email" class="form-control" id="Vacation"
+                                                            placeholder="Type here...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Looking For</label>
+                                                        <input type="email" class="form-control" id="Looking-For"
+                                                            placeholder="Type here...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Smoking</label>
+                                                        <input type="email" class="form-control" id="Smoking"
+                                                            placeholder="Type here...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Language</label>
+                                                        <input type="email" class="form-control" id="Language"
+                                                            placeholder="Type here...">
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -417,6 +472,9 @@
                         </div>
                         <div class="tab-pane fade" id="pills-Friend" role="tabpanel" aria-labelledby="pills-Friend-tab">
                             <div>
+                                <div>
+                                    <h3>FRIEND REQUESTS</h3>
+                                </div>
                                 <div class="row">
                                     <div class="col-md-4 mt-4">
                                         <div class="friends-tab-content">
@@ -427,7 +485,8 @@
                                             </div>
                                             <div class="friends-para">
                                                 <p>Michele Storm</p>
-                                                <p>5 hours ago</p>
+                                                <button class="btn acceptbtn">Accept</button>
+                                                <button class="btn Rejectbtn mt-1">Reject</button>
                                             </div>
                                         </div>
                                     </div>
@@ -440,7 +499,8 @@
                                             </div>
                                             <div class="friends-para">
                                                 <p>Michele Storm</p>
-                                                <p>5 hours ago</p>
+                                                <button class="btn acceptbtn">Accept</button>
+                                                <button class="btn Rejectbtn mt-1">Reject</button>
                                             </div>
                                         </div>
                                     </div>
@@ -453,7 +513,8 @@
                                             </div>
                                             <div class="friends-para">
                                                 <p>Michele Storm</p>
-                                                <p>5 hours ago</p>
+                                                <button class="btn acceptbtn">Accept</button>
+                                                <button class="btn Rejectbtn mt-1">Reject</button>
                                             </div>
                                         </div>
                                     </div>
@@ -466,7 +527,8 @@
                                             </div>
                                             <div class="friends-para">
                                                 <p>Michele Storm</p>
-                                                <p>5 hours ago</p>
+                                                <button class="btn acceptbtn">Accept</button>
+                                                <button class="btn Rejectbtn mt-1">Reject</button>
                                             </div>
                                         </div>
                                     </div>
@@ -479,7 +541,8 @@
                                             </div>
                                             <div class="friends-para">
                                                 <p>Michele Storm</p>
-                                                <p>5 hours ago</p>
+                                                <button class="btn acceptbtn">Accept</button>
+                                                <button class="btn Rejectbtn mt-1">Reject</button>
                                             </div>
                                         </div>
                                     </div>
@@ -492,7 +555,8 @@
                                             </div>
                                             <div class="friends-para">
                                                 <p>Michele Storm</p>
-                                                <p>5 hours ago</p>
+                                                <button class="btn acceptbtn">Accept</button>
+                                                <button class="btn Rejectbtn mt-1">Reject</button>
                                             </div>
                                         </div>
                                     </div>
@@ -505,7 +569,8 @@
                                             </div>
                                             <div class="friends-para">
                                                 <p>Michele Storm</p>
-                                                <p>5 hours ago</p>
+                                                <button class="btn acceptbtn">Accept</button>
+                                                <button class="btn Rejectbtn mt-1">Reject</button>
                                             </div>
                                         </div>
                                     </div>
@@ -518,7 +583,8 @@
                                             </div>
                                             <div class="friends-para">
                                                 <p>Michele Storm</p>
-                                                <p>5 hours ago</p>
+                                                <button class="btn acceptbtn">Accept</button>
+                                                <button class="btn Rejectbtn mt-1">Reject</button>
                                             </div>
                                         </div>
                                     </div>
@@ -531,7 +597,134 @@
                                             </div>
                                             <div class="friends-para">
                                                 <p>Michele Storm</p>
-                                                <p>5 hours ago</p>
+                                                <button class="btn acceptbtn">Accept</button>
+                                                <button class="btn Rejectbtn mt-1">Reject</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3>ALL FRIENDS</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 mt-4">
+                                        <div class="friends-tab-content">
+                                            <div class="friend-img">
+                                                <figure>
+                                                    <img src="img/friendtab1.png" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="friends-para">
+                                                <p>Michele Storm</p>
+                                                <button class="btn acceptbtn">Remove</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="friends-tab-content">
+                                            <div class="friend-img">
+                                                <figure>
+                                                    <img src="img/friendtab1.png" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="friends-para">
+                                                <p>Michele Storm</p>
+                                                <button class="btn acceptbtn">Remove</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="friends-tab-content">
+                                            <div class="friend-img">
+                                                <figure>
+                                                    <img src="img/friendtab1.png" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="friends-para">
+                                                <p>Michele Storm</p>
+                                                <button class="btn acceptbtn">Remove</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 mt-4">
+                                        <div class="friends-tab-content">
+                                            <div class="friend-img">
+                                                <figure>
+                                                    <img src="img/friendtab1.png" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="friends-para">
+                                                <p>Michele Storm</p>
+                                                <button class="btn acceptbtn">Remove</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="friends-tab-content">
+                                            <div class="friend-img">
+                                                <figure>
+                                                    <img src="img/friendtab1.png" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="friends-para">
+                                                <p>Michele Storm</p>
+                                                <button class="btn acceptbtn">Remove</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="friends-tab-content">
+                                            <div class="friend-img">
+                                                <figure>
+                                                    <img src="img/friendtab1.png" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="friends-para">
+                                                <p>Michele Storm</p>
+                                                <button class="btn acceptbtn">Remove</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 mt-4">
+                                        <div class="friends-tab-content">
+                                            <div class="friend-img">
+                                                <figure>
+                                                    <img src="img/friendtab1.png" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="friends-para">
+                                                <p>Michele Storm</p>
+                                                <button class="btn acceptbtn">Remove</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="friends-tab-content">
+                                            <div class="friend-img">
+                                                <figure>
+                                                    <img src="img/friendtab1.png" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="friends-para">
+                                                <p>Michele Storm</p>
+                                                <button class="btn acceptbtn">Remove</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt-4">
+                                        <div class="friends-tab-content">
+                                            <div class="friend-img">
+                                                <figure>
+                                                    <img src="img/friendtab1.png" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="friends-para">
+                                                <p>Michele Storm</p>
+                                                <button class="btn acceptbtn">Remove</button>
                                             </div>
                                         </div>
                                     </div>
@@ -556,6 +749,8 @@
                                                 </div>
                                                 <div class="group_type">
                                                     <p>Public Group / 28 members</p>
+                                                    <button class="btn acceptbtn mt-1">28 Request</button>
+                                                    <button class="btn Rejectbtn mt-1">Delete</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -575,6 +770,8 @@
                                                 </div>
                                                 <div class="group_type">
                                                     <p>Public Group / 28 members</p>
+                                                    <button class="btn acceptbtn mt-1">28 Request</button>
+                                                    <button class="btn Rejectbtn mt-1">Delete</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -594,6 +791,8 @@
                                                 </div>
                                                 <div class="group_type">
                                                     <p>Public Group / 28 members</p>
+                                                    <button class="btn acceptbtn mt-1">28 Request</button>
+                                                    <button class="btn Rejectbtn mt-1">Delete</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -613,6 +812,8 @@
                                                 </div>
                                                 <div class="group_type">
                                                     <p>Public Group / 28 members</p>
+                                                    <button class="btn acceptbtn mt-1">28 Request</button>
+                                                    <button class="btn Rejectbtn mt-1">Delete</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -632,6 +833,8 @@
                                                 </div>
                                                 <div class="group_type">
                                                     <p>Public Group / 28 members</p>
+                                                    <button class="btn acceptbtn mt-1">28 Request</button>
+                                                    <button class="btn Rejectbtn mt-1">Delete</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -651,6 +854,8 @@
                                                 </div>
                                                 <div class="group_type">
                                                     <p>Public Group / 28 members</p>
+                                                    <button class="btn acceptbtn mt-1">28 Request</button>
+                                                    <button class="btn Rejectbtn mt-1">Delete</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -662,12 +867,263 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-Media" role="tabpanel" aria-labelledby="pills-Media-tab">
-                            <div class="media-tab ">
-                                <figure><img src="img/user1.jpg" alt=""></figure>
-                                <figure><img src="img/user2.jpg" alt=""></figure>
-                                <figure><img src="img/user3.jpg" alt=""></figure>
-                                <figure><img src="img/user4.jpg" alt=""></figure>
-                                <figure><img src="img/user5.jpg" alt=""></figure>
+                            <div class="prenext">
+                                <button class="btn pre">Previous</button>
+                                <button class="btn pre ">Next</button>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="blog_img">
+                                        <figure><img src="img/goup11.png" class="img-fluid" alt=""></figure>
+                                        <button class="btn Rejectbtn mt-1">Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="total_groups">
+                                <p>Viewing 1 - 5 of 5 groups</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-Stories" role="tabpanel"
+                            aria-labelledby="pills-Stories-tab">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h4>Stories</h4>
+                                </div>
+                                <div class="col-md-8"></div>
+                                <div class="col-md-2">
+                                    <div class="sharestorybtn">
+                                        <a href="blog.php" class="btn"> Share Story</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-4">
+                                    <div class="story_box">
+                                        <div class="img_box">
+                                            <figure><img class="img-fluid" src="img/story11.png" alt=""></figure>
+                                        </div>
+                                        <div class="contentDv">
+                                            <h4>Romeo &amp; Juliet</h4>
+                                            <div class="blog_info">
+                                                <a href="#" class="date"><i class="fa fa-calendar"
+                                                        aria-hidden="true"></i> June 20,
+                                                    2013</a>
+                                                <a href="#" class="admin"><i class="fa fa-user" aria-hidden="true"></i>
+                                                    Gabriel</a>
+                                            </div>
+                                            <p>
+                                                Etiam vehicula odio est, sit amet volutpat nulla rutrum nec. Aliquam
+                                                lorem diam,
+                                                condimentum
+                                                eu unde omnis iste natus error sit voluptatem
+                                            </p>
+                                            <a href="sharestories.php" class="btn"> READ
+                                                MORE</a>
+                                            <div>
+                                                <a href="sharestories.php" class="btn remove"> Remove </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="story_box">
+                                        <div class="img_box">
+                                            <figure><img class="img-fluid" src="img/story11.png" alt=""></figure>
+                                        </div>
+                                        <div class="contentDv">
+                                            <h4>Romeo &amp; Juliet</h4>
+                                            <div class="blog_info">
+                                                <a href="#" class="date"><i class="fa fa-calendar"
+                                                        aria-hidden="true"></i> June 20,
+                                                    2013</a>
+                                                <a href="#" class="admin"><i class="fa fa-user" aria-hidden="true"></i>
+                                                    Gabriel</a>
+                                            </div>
+                                            <p>
+                                                Etiam vehicula odio est, sit amet volutpat nulla rutrum nec. Aliquam
+                                                lorem diam,
+                                                condimentum
+                                                eu unde omnis iste natus error sit voluptatem
+                                            </p>
+                                            <a href="sharestories.php" class="btn"> READ
+                                                MORE</a>
+                                            <div>
+                                                <a href="sharestories.php" class="btn remove"> Remove </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="story_box">
+                                        <div class="img_box">
+                                            <figure><img class="img-fluid" src="img/story11.png" alt=""></figure>
+                                        </div>
+                                        <div class="contentDv">
+                                            <h4>Romeo &amp; Juliet</h4>
+                                            <div class="blog_info">
+                                                <a href="#" class="date"><i class="fa fa-calendar"
+                                                        aria-hidden="true"></i> June 20,
+                                                    2013</a>
+                                                <a href="#" class="admin"><i class="fa fa-user" aria-hidden="true"></i>
+                                                    Gabriel</a>
+                                            </div>
+                                            <p>
+                                                Etiam vehicula odio est, sit amet volutpat nulla rutrum nec. Aliquam
+                                                lorem diam,
+                                                condimentum
+                                                eu unde omnis iste natus error sit voluptatem
+                                            </p>
+                                            <a href="sharestories.php" class="btn"> READ
+                                                MORE</a>
+                                            <div>
+                                                <a href="sharestories.php" class="btn remove"> Remove </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-Membership" role="tabpanel"
+                            aria-labelledby="pills-Membership-tab">
+                            <div class="mem-plan-head">
+                                <h3>PURCHASED MEMBERSHIP PLAN</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-1"></div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="membership_package mt-3">
+                                        <div class="package_type for-pad">
+                                            <h5>SILVER</h5>
+                                        </div>
+                                        <div class="package_desc for-pad">
+                                            <p>
+                                                <strong>$10.00 per Month</strong>
+                                                <span>After your initial payment, your first 6 payments are Free.</span>
+                                            </p>
+                                        </div>
+                                        <div class="package_price for-pad">
+                                            <h3>$10.00</h3>
+                                        </div>
+                                        <div class="about_package for-pad">
+                                            <p>
+                                                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                                                suscipit laboriosam.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="membership_package mt-3">
+                                        <ul class="package_detail for-pad">
+                                            <li><i class="fa fa-check-circle" aria-hidden="true"></i> View members
+                                                directory
+                                            </li>
+                                            <li><i class="fa fa-check-circle" aria-hidden="true"></i> View members
+                                                profile
+                                            </li>
+                                            <li><i class="fa fa-check-circle" aria-hidden="true"></i> Access group
+                                                directory
+                                            </li>
+                                            <li><i class="fa fa-check-circle" aria-hidden="true"></i> Access to groups
+                                            </li>
+                                            <li><i class="fa fa-check-circle" aria-hidden="true"></i> View site activity
+                                            </li>
+                                            <li class="unavailable">Send Private messages</li>
+                                            <li><i class="fa fa-check-circle" aria-hidden="true"></i> Add media to your
+                                                profile</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,48 @@
+.livecall-head h3 {
+    font-size: 26px;
+    margin: 0;
+}
+.livecall-head img.img-fluid {
+    width: 45px;
+    height: 45px;
+    margin-left: 1rem;
+}
+.livecall-head {
+    background: #3E3E45;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.livecall-main img.img-fluid {
+    width: 400px;
+    margin-top: 7rem;
+}
+.livecall-main {
+    background: #4C4C54;
+    margin: 0 auto;
+}
+.livecall-main div {
+    margin: 0 auto;
+    width: fit-content;
+}
+.livecall-icon img.img-fluid {
+    width: 69px;
+    margin-top: 0;
+}
+.livecall-main div {
+    margin: 0 auto;
+    width: fit-content;
+}
+.livecall-icon {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+section.livecall {
+    color: #CFCFDE;
+    text-align: center;
+}
+.livecall-main h3 {
+    COLOR: #CFCFDE;
+    font-size: 32px;
+}

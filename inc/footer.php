@@ -39,9 +39,9 @@
                     </div>
                     <div class="policysectionbottom">
                         <ul>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Returns Policy</a></li>
+                            <li><a href="terms&condition.php">Terms & Conditions</a></li>
+                            <li><a href="privacypolicy.php">Privacy Policy</a></li>
+                            <li><a href="returnspolicy.php">Returns Policy</a></li>
                         </ul>
                     </div>
                 </div>

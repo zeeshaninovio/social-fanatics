@@ -120,4 +120,29 @@ $(".media-tab").slick({
     ],
 });
 // usersprofile media Slides Js
+$("#pills-Edit-tab").on('click', function(){
+  $("#pills-looking-t").css("display", "none");
+  $("#pills-about-t").css("display", "none");
+  $("#pills-Edit-form").css("display", "block");
+  console.log('test');
+});
+
+$("#pills-aboutme-t").click(function(){
+  $("#pills-looking-t").show();
+  $("#pills-Edit-form").css("display", "none");
+});
+$("#pills-looking").click(function(){
+  $("#pills-looking-t").show();
+  $("#pills-Edit-form").css("display", "none");
+});
+
+
+
+// $("#pills-Edit-tab").click(function(){
+//   $("#pills-looking-t").show();
+// });
+
+// $("#pills-looking").click(function(){
+//   $("#pills-Edit").hide();
+// });
 </script>
