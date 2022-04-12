@@ -1,0 +1,59 @@
+section#sec-user-profile3 .custom-box.form-group {
+    border: 1px solid #d9d9d9;
+    border-style: dashed;
+}
+section#sec-user-profile3 .form-group label {
+    font-size: 13px;
+}
+.custom-box label {
+    cursor: pointer;
+    padding: 4rem;
+    margin: 0 auto;
+    text-align: center;
+    /* width: 50%; */
+    background: #F3FAFD;
+    display: flex;
+    flex-direction: column;
+}
+section#sec-user-profile3 .custom-box label img {
+    width: 30px;
+    margin: 0 auto;
+}
+section#sec-user-profile3 .form-group.custom-box p.black-txt {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+section#sec-user-profile3 .form-group.custom-box p.blue-txt {
+    font-size: 18px;
+    color: #15A2CB;
+    font-weight: 700;
+}
+section#sec-user-profile3 #upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+section#sec-user-profile3 .blog_img {
+    display: flex;
+    position: relative;
+}
+section#sec-user-profile3 .blog_img figure img {
+    background: #DCF1F7;
+    border-radius: 4px;
+    padding: 0.3rem;
+    width: 200px;
+    height: 130px;
+}
+section#sec-user-profile3 button.btn.Rejectbtn {
+    background: #ED0058;
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 0.3rem 1.8rem;
+}
+section#sec-user-profile3 button.btn.Rejectbtn.mt-1 {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+}

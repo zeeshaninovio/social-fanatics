@@ -514,7 +514,7 @@ header#top_header .navbar_nav ul.nav_menus {
 }
 header#top_header .navbar_nav ul.nav_menus li.nav_items a.nav_links {
   color: #fff;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 300;
   font-family: "Poppins";
   text-decoration: none;
@@ -526,7 +526,7 @@ header#top_header .navbar_nav ul.nav_menus li:hover a {
   /* background: #0296c0; */
 }
 header#top_header .nav_wrapper .btn-group button.btn {
-  font-size: 10px;
+  font-size: 12px;
   font-family: "Open Sans";
   font-weight: 600;
   background: #e6e6e6;
@@ -632,6 +632,7 @@ div#signupmodal p.al-account {
   background: #e9e9e9;
   padding: 7px;
   font-weight: 700;
+  color: black;
 }
 div#signupmodal .col-md-6.already-head {
   width: fit-content;
@@ -1280,7 +1281,7 @@ header#top_header li.nav_items {
 }
 header#top_header .bell-icon i.fa.fa-bell {
   color: white;
-  font-size: 11px;
+  font-size: 13px;
 }
 header#top_header .bell-icon {
   display: inline-block;

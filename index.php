@@ -31,6 +31,7 @@ header#top_header {
                                                     <option selected>-</option>
                                                     <option>Woman</option>
                                                     <option>Man</option>
+                                                    <option>Other</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">
@@ -39,6 +40,7 @@ header#top_header {
                                                     <option selected>-</option>
                                                     <option>Man</option>
                                                     <option>Woman</option>
+                                                    <option>Other</option>
                                                 </select>
                                             </div>
                                             <div class="form-group">
@@ -169,7 +171,27 @@ header#top_header {
                                             </div>
                                             <div class="form-group">
                                                 <label>City</label>
-                                                <input type="text" class="form-control">
+                                                <select class="form-control">
+                                                    <option selected>-</option>
+                                                    <option>California</option>
+                                                    <option>New York</option>
+                                                    <option>Chicago</option>
+                                                    <option>Texas</option>
+                                                    <option>Florida</option>
+                                                </select>
+                                                <!-- <input type="text" class="form-control"> -->
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Country</label>
+                                                <select class="form-control">
+                                                    <option selected>-</option>
+                                                    <option>USA</option>
+                                                    <option>UK</option>
+                                                    <option>China</option>
+                                                    <option>Canada</option>
+                                                    <option>Germany</option>
+                                                </select>
+                                                <!-- <input type="text" class="form-control"> -->
                                             </div>
                                             <button type="submit" class="btn"><i class="fa fa-search"
                                                     aria-hidden="true"></i>
@@ -805,11 +827,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user1.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Brady Patterson</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -818,11 +840,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user2.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Jessica</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -831,11 +853,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user3.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Peter Shull</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -844,11 +866,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user4.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Sarah</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -857,11 +879,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user5.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Hanna Marcovick</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -870,11 +892,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user6.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Michele Storm</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -887,11 +909,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user1.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Brady Patterson</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -900,11 +922,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user2.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Jessica</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -913,11 +935,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user3.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Peter Shull</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -926,11 +948,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user4.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Sarah</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -939,11 +961,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user5.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Hanna Marcovick</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>
@@ -952,11 +974,11 @@ header#top_header {
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="user">
                             <div class="user_img">
-                                <a href="#">
+                                <a href="userprofile.php">
                                     <figure><img src="img/user6.jpg" alt=""></figure>
                                 </a>
                             </div>
-                            <a href="#">
+                            <a href="userprofile.php">
                                 <h5>Michele Storm</h5>
                             </a>
                             <span>registered 3 months, 2 weeks ago</span>

@@ -51,7 +51,7 @@
                                 <figure><img src="img/group1.jpg" alt=""></figure>
                             </div>
                             <div class="group_content">
-                                <a href="#" class="group-name">Site lovers</a><br />
+                                <a href="sitelover.php" class="group-name">Site lovers</a><br />
                                 <span class="time">a month ago</span>
                                 <div class="about_group">
                                     <p>
@@ -70,7 +70,7 @@
                                 <figure><img src="img/group2.jpg" alt=""></figure>
                             </div>
                             <div class="group_content">
-                                <a href="#" class="group-name">Fast food Junkies</a><br />
+                                <a href="sitelover.php" class="group-name">Fast food Junkies</a><br />
                                 <span class="time">a month ago</span>
                                 <div class="about_group">
                                     <p>
@@ -89,7 +89,7 @@
                                 <figure><img src="img/group3.png" alt=""></figure>
                             </div>
                             <div class="group_content">
-                                <a href="#" class="group-name">Couples</a><br />
+                                <a href="sitelover.php" class="group-name">Couples</a><br />
                                 <span class="time">7 months ago</span>
                                 <div class="about_group">
                                     <p>
@@ -109,7 +109,7 @@
                                 <figure><img src="img/group4.png" alt=""></figure>
                             </div>
                             <div class="group_content">
-                                <a href="#" class="group-name">Virtual only</a><br />
+                                <a href="sitelover.php" class="group-name">Virtual only</a><br />
                                 <span class="time">2 years ago</span>
                                 <div class="about_group">
                                     <p>
@@ -128,7 +128,7 @@
                                 <figure><img src="img/group5.png" alt=""></figure>
                             </div>
                             <div class="group_content">
-                                <a href="#" class="group-name">VIP Users</a><br />
+                                <a href="sitelover.php" class="group-name">VIP Users</a><br />
                                 <span class="time">8 years ago</span>
                                 <div class="about_group">
                                     <p>

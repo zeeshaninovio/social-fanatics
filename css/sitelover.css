@@ -17,9 +17,6 @@
     font-weight: 400;
     margin: 0;
 }
-a.btn.video-call {
-    background: #ed0058;
-}
 a.btn {
     background: #26A5CB;
     color: #fff;
@@ -244,11 +241,11 @@ p.activity-name {
 .activity-content.activity-content00:before {
     content: unset;
 }
-.lineee:before {
+.sitelover-sec .lineee:before {
     content: "";
     position: absolute;
     width: 1px;
-    height: 900px;
+    height: 400px;
     background: #E2E2E2;
     transform: translate(6px, 19px);
 }
@@ -402,6 +399,46 @@ li.nav-item:nth-child(3) {
     display: flex;
     align-items: center;
 }
+/* discussion tab start here */
+.prowimg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.datee-head p {
+    font-size: 13px;
+    margin-left: 1rem;
+    color: #7F7F7F;
+    padding: 10px;
+}
+.prowimg-name p {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+.prowimg-d p {
+    font-size: 13px;
+    color: #7F7F7F;
+}
+.prowimg img {
+    width: 100px;
+    height: 90px;
+}
+.post-discussion p {
+    font-size: 14px;
+}
+.datee-head {
+    background: #F8F8F8;
+}
+p.auth {
+    margin: 0;
+    font-size: 14px;
+}
+.card-header {
+    border-bottom: 0;
+    background: #C8C8C8;
+}
+/* discussion tab End here */
 /* media tab start here */
 button.btn.pre {
     background: transparent;
@@ -430,3 +467,89 @@ div#pills-Media .total_groups p {
     color: #777777;
 }
 /* media tab End here */
+/* tabs */
+.sitelover-sec .apfg-blog .nav-pills .nav-link.active:nth-child(2):after {
+    left: 26px;
+}
+/* site lover heading and img start here*/
+.sitelovermain img {
+    width: 200px;
+    height: 190px;
+    border-radius: 5px;
+}
+.sitelovercont h3 {
+    font-size: 35px;
+    font-weight: 400;
+}
+.sitelovercont p.Public-Group {
+    display: inline;
+    background: #F7F7F7;
+    border-radius: 4px;
+    padding: 5px;
+}
+.sitelovercont span {
+    font-size: 12px;
+    margin-left: 1rem;
+    color: #7F7F7F;
+}
+.sitelovercont p {
+    font-size: 12px;
+    margin-top: 1rem;
+    font-weight: 100;
+    color: #7F7F7F;
+    margin-bottom: 5px;
+}
+.site-lovers {
+    margin-bottom: 2rem;
+}
+img.groupad {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+}
+.AdminsGroup p {
+    font-size: 10px;
+}
+.AdminsGroup {
+    text-align: end;
+}
+.groupadmins:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    margin: 0;
+    margin-left: -5px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #0000;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #f7f7f7;
+    left: 25px;
+}
+.groupadmins {
+    background: #f7f7f7;
+    text-align: center;
+    padding: 0.5rem;
+    width: fit-content;
+    margin-left: 3rem;
+    position: relative;
+    border-radius: 5px;
+}
+li.nav-item:nth-child(4) {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+li.nav-item:nth-child(4) .nav-link {
+    margin-right: 0;
+}
+li.nav-item:nth-child(3) {
+    margin-right: 2rem;
+}
+/* site lover heading and img start here*/
+.joinbtn button.btn.btn-primary {
+    padding: 0.5rem 2rem;
+    background: #15a2cb;
+}

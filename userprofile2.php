@@ -38,7 +38,12 @@
                         </div>
                         <div class="blog_img">
                             <figure><img src="img/userprofile.png" alt=""></figure>
-                            <img src="img/userprofile21.png" class="img-fluid img-upload-icon" alt="">
+                            <div class="form-group">
+                                <label for="img-upload"><img src="img/userprofile21.png"
+                                        class="img-fluid img-upload-icon" alt=""></label>
+                                <input type="file" class="form-control-file" id="img-upload">
+                            </div>
+
                             <!-- <div class="sharestorybtn">
                                 <a href="#" class="btn"> Add Friend</a>
                                 <a href="chat.php" class="btn"> Private Message</a>

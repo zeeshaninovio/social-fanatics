@@ -122,11 +122,8 @@
             <div class="col-md-2 col-6 bell-i">
                 <div class="nav_wrapper">
                     <div class="bell-icon">
-                        <li class="nav_items"><a href="#" class="nav_links">
+                        <li class="nav_items"><a href="notification.php" class="nav_links">
                                 <i class="fa fa-bell" aria-hidden="true"></i>
-
-
-
                             </a></li>
                     </div>
                     <div class="buttons-strips">
@@ -288,7 +285,7 @@
                             </div>
                             <div class="col-md-6 already-head">
                                 <div class="">
-                                    <p class="al-account">ALREADY HAVE AN ACCOUNT?</p>
+                                    <a href=""><p class="al-account">ALREADY HAVE AN ACCOUNT?</p></a>
                                 </div>
                             </div>
                         </div>
