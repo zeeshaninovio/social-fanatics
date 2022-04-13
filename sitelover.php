@@ -83,12 +83,12 @@
                             aria-labelledby="pills-Activity-tab">
                             <div class="tabsactivity">
                                 <div class="row">
-                                    <div class="col-md-1">
+                                    <div class="col-md-1 col-1">
                                         <div class="lineee">
                                             <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         </div>
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-8 col-11">
                                         <div>
                                             <div class="activity-content">
                                                 <div class="activity-para">
@@ -108,9 +108,9 @@
                             </div>
                             <div class="tabsactivity mt-3">
                                 <div class="row">
-                                    <div class="col-md-1">
+                                    <div class="col-md-1 col-1">
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-8 col-11">
                                         <div>
                                             <div class="activity-content">
                                                 <div class="activity-para">
@@ -133,20 +133,20 @@
                             aria-labelledby="pills-profile-tab">
                             <div class="tabsactivity">
                                 <div class="row">
-                                    <div class="col-md-1">
+                                    <div class="col-md-1 col-1">
                                         <div class="lineee">
                                             <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         </div>
                                     </div>
-                                    <div class="col-md-11">
+                                    <div class="col-md-11 col-11">
                                         <div>
                                             <div class="card">
                                                 <div class="card-header">
                                                     <div class="row">
-                                                        <div class="col-md-4">
+                                                        <div class="col-md-4 col-6">
                                                             <p class="auth">Author</p>
                                                         </div>
-                                                        <div class="col-md-8">
+                                                        <div class="col-md-8 col-6">
                                                             <p class="auth">Posts</p>
                                                         </div>
                                                     </div>
@@ -160,7 +160,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-md-4">
+                                                        <div class="col-md-4 col-4">
                                                             <div class="prowimg">
                                                                 <div>
                                                                     <img src="img/sitelover1.png" class="img-fluid"
@@ -174,7 +174,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-8">
+                                                        <div class="col-md-8 col-8">
                                                             <div class="post-discussion">
                                                                 <p>
                                                                     Lorem ipsum dolor sit amet, consectetur adipiscing

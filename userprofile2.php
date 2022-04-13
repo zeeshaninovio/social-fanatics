@@ -86,7 +86,7 @@
                             aria-labelledby="pills-home-tab">
                             <div class="aboutme-t">
                                 <div class="row">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-6">
                                         <div class="about-me-tab">
                                             <div>
                                                 <p>Name</p>
@@ -99,7 +99,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-7">
+                                    <div class="col-md-7 col-6">
                                         <div class="about-me-tab">
                                             <form action="">
                                                 <div class="form-group">
@@ -145,7 +145,7 @@
                             aria-labelledby="pills-Edit-tab">
                             <div class="aboutme-t">
                                 <div class="row">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-6">
                                         <div class="about-me-tab">
                                             <div>
                                                 <p>Name</p>
@@ -158,7 +158,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-7">
+                                    <div class="col-md-7 col-6">
                                         <div class="about-me-tab">
                                             <form action="">
                                                 <div class="form-group">
@@ -230,12 +230,12 @@
                             aria-labelledby="pills-Activity-tab">
                             <div class="tabsactivity">
                                 <div class="row">
-                                    <div class="col-md-1">
+                                    <div class="col-md-1 col-1">
                                         <div class="lineee">
                                             <i class="fa fa-clock-o" aria-hidden="true"></i>
                                         </div>
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-8 col-11">
                                         <div>
                                             <div class="activity-content">
                                                 <div class="activity-para">
@@ -255,8 +255,8 @@
                             </div>
                             <div class="tabsactivity mt-3">
                                 <div class="row">
-                                    <div class="col-md-1"></div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-1 col-1"></div>
+                                    <div class="col-md-8 col-11">
                                         <div>
                                             <div class="activity-content">
                                                 <div class="activity-para">
@@ -281,8 +281,8 @@
                             </div>
                             <div class="tabsactivity tabsactivitys mt-3">
                                 <div class="row">
-                                    <div class="col-md-1"></div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-1 col-1"></div>
+                                    <div class="col-md-8 col-11">
                                         <div>
                                             <div class="activity-content activity-content00">
                                                 <div class="activity-para">
@@ -305,8 +305,8 @@
                             </div>
                             <div class="tabsactivity">
                                 <div class="row">
-                                    <div class="col-md-1"></div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-1 col-1"></div>
+                                    <div class="col-md-8 col-11">
                                         <div>
                                             <div class="activity-content activity-content2">
                                                 <div class="activity-para activity-paraa2">
@@ -336,14 +336,14 @@
                             </div>
                             <div class="tabsactivity mt-3">
                                 <div class="row">
-                                    <div class="col-md-1">
+                                    <div class="col-md-1 col-1">
                                         <div class="userprofileimg">
                                             <figure>
                                                 <img src="img/activity2.png" alt="">
                                             </figure>
                                         </div>
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-8 col-11">
                                         <div>
                                             <div class="activity-content">
                                                 <div class="activity-para">

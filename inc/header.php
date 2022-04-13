@@ -238,12 +238,25 @@
 
 <!-- Mobile Header Start Here -->
 <div class="mobile_header">
-    <div class="cancel">
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#000" class="bi bi-x" viewBox="0 0 16 16">
-            <path
-                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-        </svg>
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="logo_dv">
+                <a href="index.php">
+                    <figure><img src="img/header-logo.png" alt="123456"></figure>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="cancel">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#000" class="bi bi-x"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </div>
+        </div>
     </div>
+
     <ul class="mobile_menus">
         <li class="menu_items"><a class="menu_links active_menu" href="index.php">Welcome</a></li>
         <li class="menu_items"><a class="menu_links" href="#">Features</a></li>
@@ -285,7 +298,9 @@
                             </div>
                             <div class="col-md-6 already-head">
                                 <div class="">
-                                    <a href=""><p class="al-account">ALREADY HAVE AN ACCOUNT?</p></a>
+                                    <a href="">
+                                        <p class="al-account">ALREADY HAVE AN ACCOUNT?</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -482,7 +497,8 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn signinbtn"><i class="fa fa-unlock" aria-hidden="true"></i>LOG
+                            <button type="submit" class="btn signinbtn"><i class="fa fa-unlock"
+                                    aria-hidden="true"></i>LOG
                                 IN</button>
                         </div>
                     </div>

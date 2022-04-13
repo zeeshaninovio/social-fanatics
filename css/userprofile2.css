@@ -643,3 +643,34 @@ button.btn.pre {
 .prenext {
     text-align: end;
 }
+@media(max-width:768px){
+    section.userprofile-section.userprofile2-section .blog_img img.img-fluid.img-upload-icon{
+        left: 10rem;
+        right: 0;
+    }
+    section.userprofile-section.userprofile2-section div#pills-Media .blog_img figure img{
+        width: 100%;
+        height: 65px;
+    }
+    section.userprofile-section.userprofile2-section div#pills-Media button.btn.Rejectbtn{
+        padding: 0.1rem .4rem;
+        font-size: 6px;
+    }
+    div#pills-Media button.btn.Rejectbtn.mt-1{
+        left: 0.5rem;
+    }
+    section.userprofile-section.userprofile2-section .apfg-blog ul#pills-tab{
+        overflow-x: scroll;
+    padding-bottom: 1rem;
+    overflow-y: hidden;
+    }
+    section.userprofile-section.userprofile2-section {
+        overflow-x: hidden;
+    }
+    .userprofileimg {
+        transform: translate(-6px, 40px);
+    }
+    .userprofileimg img {
+        width: 25px;
+    }
+}

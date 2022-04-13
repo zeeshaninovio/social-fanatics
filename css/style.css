@@ -311,13 +311,16 @@ header .canvas_btn i.fa.fa-bars {
   font-size: 20px;
 }
 .mobile_header {
+  flex-direction: column;
+}
+.mobile_header {
   position: fixed;
   width: 35%;
   height: 100%;
   background: #0296c0;
   z-index: 6;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   right: 0;
   padding-left: 20px;
@@ -722,8 +725,12 @@ span.privacy-imp {
   }
 }
 @media (max-width: 768px) {
+  header#top_header .bell-i .nav_wrapper{
+    display: none  !important;
+  }
   header#top_header .logo_dv img {
-    width: 100%;
+    /* width: 100%; */
+    width: 75px;
   }
   header#top_header .buttons-strips {
     display: none;

@@ -60,3 +60,10 @@ button.btn.Rejectbtn {
     font-size: 12px;
     padding: 0.3rem 2rem;
 }
+@media(max-width:768px){
+    button.btn.Rejectbtn{
+        margin-left: 0rem  !important;
+        margin-top: 5px;
+    }
+    
+}

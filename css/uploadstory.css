@@ -44,3 +44,8 @@ section.uploadstory-section .form-group.custom-box p.black-txt {
     font-size: 18px;
     font-weight: 600;
 }
+@media(max-width:768px){
+    .custom-box label{
+        padding: 4rem;
+    }
+}
